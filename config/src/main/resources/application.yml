@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config #1
+#为什么要有application.yml文件，不设置该端口为什么用的又是默认的8080，不是8888
+#server:
+  #port: 8887
