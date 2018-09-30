@@ -11,4 +11,10 @@ public class UserController {
         System.out.println("服务被调用...");
         return "用户的基本信息";
     }
+
+    @RequestMapping("/fallBackMethod")
+    public String fallBackMethod() {
+        System.out.println("容错方法服务被调用...");
+        return "用户的基本信息";
+    }
 }

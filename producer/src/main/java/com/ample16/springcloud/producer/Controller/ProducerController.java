@@ -19,6 +19,7 @@ public class ProducerController {
         map.put("name", "kaka");
         map.put("age", 18);
         consumerClient.testCallConsumer();
+        consumerClient.testFallBackMethod();
         return map;
     }
 }
