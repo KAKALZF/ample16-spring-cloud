@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@EnableHystrix
+//@EnableHystrix
 public class ProducerApplication {
 
 	public static void main(String[] args) {

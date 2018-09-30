@@ -18,7 +18,7 @@ public class ProducerController {
         HashMap<String, Object> map = new HashMap<>();
         map.put("name", "kaka");
         map.put("age", 18);
-        consumerClient.testCallConsumer();
+//        consumerClient.testCallConsumer();
         consumerClient.testFallBackMethod();
         return map;
     }
